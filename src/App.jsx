@@ -1,19 +1,18 @@
 /*
 // Student Name: Jorlin Roy
 // Student ID: 301240499
-// Date: 7 OCT 2024
-*/
-
+ Date: 7 OCT 2024*/
 import React from 'react';
-import { HashRouter as Router } from 'react-router-dom';
-import MainRouter from '../MainRouter'; // Assuming your main routing logic is here
-
+import { BrowserRouter as Router } from 'react-router-dom';
+import MainRouter from '../MainRouter';
+import Contact from './contact'
 const App = () => {
-  return (
-    <Router basename="/Portfolio"> {/* Make sure to use basename with your repo name */}
-      <MainRouter />
-    </Router>
-  );
-};
+ return (
+ <Router>
+ 
+ <MainRouter />
 
+ </Router>
+ );
+};
 export default App;
