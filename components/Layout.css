@@ -1,0 +1,50 @@
+/* 
+// Student Name: Jorlin Roy
+// Student ID: 301240499
+ Date: 7 OCT 2024*/
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+  
+.layout-header {
+    background-color: #333;
+    color: #A3C1DA; 
+    padding: 1.5rem;
+    text-align: center;
+}
+  
+.layout-title {
+    margin: 0;
+    font-size: 2.5rem;
+}
+  
+.layout-nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0 0 0;
+}
+  
+.layout-nav li {
+    margin: 0 1.5rem;
+}
+  
+.nav-link {
+    text-decoration: none;
+    color: #A3C1DA; 
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+  
+.nav-link:hover {
+    color: #007BFF; 
+}
+  
+.divider {
+    border: 1px solid #ddd;
+    margin-top: 2rem;
+}

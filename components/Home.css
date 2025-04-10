@@ -1,0 +1,136 @@
+/* Student Name: Jorlin Roy
+   Student ID: 301240499
+   Date: 7 OCT 2024 */
+   .home-container {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 1200px;
+    background-color: #f4f4f9;
+  }
+  
+  .home-header {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  
+  .home-header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+  }
+  
+  .home-header p {
+    font-size: 1.6rem;
+    color: #34495e;
+    margin-top: 0.5rem;
+  }
+  
+  .home-about, .home-projects, .home-contact {
+    margin-bottom: 3rem;
+  }
+  
+  .home-about h2, .home-projects h2, .home-contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+    color: #2c3e50;
+  }
+  
+  .home-about p, .home-projects p, .home-contact p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+  }
+  
+  .project-list {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-card h3 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #2c3e50;
+  }
+  
+  .project-card p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 1rem;
+  }
+  
+  .view-project {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  
+  .view-project:hover {
+    color: #0056b3;
+  }
+  
+  .contact-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  
+  .contact-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .home-resume {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .resume-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  }
+  
+  .resume-button:hover {
+    background-color: #0056b3;
+  }
+  
