@@ -61,4 +61,26 @@
   .contact-list a:hover {
     text-decoration: underline; 
   }
+
+  @media (max-width: 768px) {
+    /* Adjust layout, text size, padding, etc. for tablets and phones */
+  
+    .container {
+      flex-direction: column;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .hero-text {
+      font-size: 1.2rem;
+    }
+  
+    .image {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Add other classes you use on that specific page */
+  }
+  
   
